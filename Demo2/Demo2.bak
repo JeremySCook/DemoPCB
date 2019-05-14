@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5CD8FAD1
+P 5250 1850
+F 0 "BT1" V 5505 1900 50  0000 C CNN
+F 1 "CR2032" V 5414 1900 50  0000 C CNN
+F 2 "Battery:Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles" V 5250 1910 50  0001 C CNN
+F 3 "~" V 5250 1910 50  0001 C CNN
+	1    5250 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 1850 6550 1850
+Wire Wire Line
+	6550 1850 6550 2500
+$Comp
+L Device:R R1
+U 1 1 5CD9338A
+P 5950 2500
+F 0 "R1" V 5950 2500 50  0000 C CNN
+F 1 "R" V 5600 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 2500 50  0001 C CNN
+F 3 "~" H 5950 2500 50  0001 C CNN
+	1    5950 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CD93996
+P 5950 2600
+F 0 "R2" V 5950 2600 50  0000 C CNN
+F 1 "R" V 5500 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 2600 50  0001 C CNN
+F 3 "~" H 5950 2600 50  0001 C CNN
+	1    5950 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CD94612
+P 5950 2700
+F 0 "R3" V 5950 2700 50  0000 C CNN
+F 1 "R" V 6200 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 2700 50  0001 C CNN
+F 3 "~" H 5950 2700 50  0001 C CNN
+	1    5950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CD94C31
+P 5950 2800
+F 0 "R4" V 5950 2800 50  0000 C CNN
+F 1 "R" V 6100 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5880 2800 50  0001 C CNN
+F 3 "~" H 5950 2800 50  0001 C CNN
+	1    5950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CD95CBB
+P 6300 2500
+F 0 "D1" H 6450 2450 50  0000 C CNN
+F 1 "LED" H 6300 2150 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 6300 2500 50  0001 C CNN
+F 3 "~" H 6300 2500 50  0001 C CNN
+	1    6300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CD96512
+P 6300 2600
+F 0 "D2" H 6450 2550 50  0000 C CNN
+F 1 "LED" H 6300 2250 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 6300 2600 50  0001 C CNN
+F 3 "~" H 6300 2600 50  0001 C CNN
+	1    6300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5CD96DD0
+P 6300 2700
+F 0 "D3" H 6450 2650 50  0000 C CNN
+F 1 "LED" H 6300 2300 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 6300 2700 50  0001 C CNN
+F 3 "~" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5CD972F3
+P 6300 2800
+F 0 "D4" H 6450 2750 50  0000 C CNN
+F 1 "LED" H 6300 2050 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm" H 6300 2800 50  0001 C CNN
+F 3 "~" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2800 5650 2800
+Wire Wire Line
+	5800 2700 5650 2700
+Wire Wire Line
+	5800 2600 5650 2600
+Wire Wire Line
+	5800 2500 5650 2500
+Wire Wire Line
+	6150 2500 6100 2500
+Wire Wire Line
+	6150 2600 6100 2600
+Wire Wire Line
+	6150 2700 6100 2700
+Wire Wire Line
+	6150 2800 6100 2800
+Wire Wire Line
+	6550 2500 6450 2500
+Connection ~ 6550 2500
+Wire Wire Line
+	6550 2500 6550 2600
+Wire Wire Line
+	6550 2600 6450 2600
+Connection ~ 6550 2600
+Wire Wire Line
+	6550 2600 6550 2700
+Wire Wire Line
+	6550 2700 6450 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	6550 2700 6550 2800
+Wire Wire Line
+	6550 2800 6450 2800
+Connection ~ 6550 2800
+Wire Wire Line
+	6550 2800 6550 3400
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85V-10PU U1
+U 1 1 5CD8B998
+P 5050 2800
+F 0 "U1" H 4520 2846 50  0000 R CNN
+F 1 "ATtiny85V-10PU" H 4520 2755 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5050 2800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5050 2800 50  0001 C CNN
+	1    5050 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5650 2900
+NoConn ~ 5650 3000
+Wire Wire Line
+	5050 2200 5050 2050
+Wire Wire Line
+	5050 3400 5750 3400
+$Comp
+L power:GND #PWR0101
+U 1 1 5CD9ECE1
+P 5750 3400
+F 0 "#PWR0101" H 5750 3150 50  0001 C CNN
+F 1 "GND" H 5755 3227 50  0000 C CNN
+F 2 "" H 5750 3400 50  0001 C CNN
+F 3 "" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3400
+Wire Wire Line
+	5750 3400 6550 3400
+Text Label 6150 3400 0    50   ~ 0
+GND
+Text Label 5050 2100 1    50   ~ 0
+PWR
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CD9F667
+P 5050 2050
+F 0 "#PWR?" H 5050 1900 50  0001 C CNN
+F 1 "+3.3V" V 5065 2178 50  0000 L CNN
+F 2 "" H 5050 2050 50  0001 C CNN
+F 3 "" H 5050 2050 50  0001 C CNN
+	1    5050 2050
+	0    1    1    0   
+$EndComp
+Connection ~ 5050 2050
+Wire Wire Line
+	5050 2050 5050 1850
+$EndSCHEMATC
